@@ -23,10 +23,9 @@ Monty byte code files can contain blank lines (empty or made of spaces only) and
 The code is compiled using a gcc compiler thus, it should be installed in your computer.
 To install GCC in your system:
 
-> $ sudo apt update && sudo apt upgrade -y
-> $ sudo apt install build-essential
-> $ sudo apt install manpages-dev
-
+> $ sudo apt update && sudo apt upgrade -y\
+> $ sudo apt install build-essential\
+> $ sudo apt install manpages-dev\ 
 To check if it is installed:
 
 > $gcc --version
