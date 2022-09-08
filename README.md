@@ -4,6 +4,7 @@ The goal of this project is to create an interpreter for Monty ByteCodes files u
 The data structures in play are stacks and queues.\
 To understand how stacks work have a look at:\
 [Differences between stack and queue data stuctures](https://byjus.com/gate/difference-stack-and-queue-data-structures/)
+
 [How do I use extern to share variables between source files in C?](https://stackoverflow.com/questions/1433204/how-do-i-use-extern-to-share-variables-between-source-files)
 
 ##The Monty language
@@ -26,6 +27,7 @@ To install GCC in your system:
 > $ sudo apt update && sudo apt upgrade -y\
 > $ sudo apt install build-essential\
 > $ sudo apt install manpages-dev\ 
+
 To check if it is installed:
 
 > $gcc --version
